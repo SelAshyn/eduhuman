@@ -1,7 +1,8 @@
 export function Bannar(){
   return(
     <>
-      <div className="min-h-[30vh] mt-30 flex items-center justify-center px-4 sm:px-10 lg:px-0" style={{ fontFamily: "Merriweather, serif" }}>
+      <div className="flex justify-center items-center">
+        <div className="min-h-[30vh] mt-30 mb-30 bg-white shadow-2xl rounded-xl w-max p-20 flex items-center justify-center" style={{ fontFamily: "Merriweather, serif" }}>
         <div className="max-w-6xl flex flex-col items-center">
           <h1 className="text-5xl font-bold text-center">Ready to Transform Your Institution?</h1>
           <p className="mt-8 text-center">Collaborate with us for customized training, research, or digital solutions.</p>
@@ -11,6 +12,7 @@ export function Bannar(){
             Explore our Program
           </button>
         </div>
+      </div>
       </div>
     </>
   )

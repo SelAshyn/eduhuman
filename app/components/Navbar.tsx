@@ -134,10 +134,10 @@ export default function Navbar() {
         }`}
         style={{ fontFamily: "Ubuntu, sans-serif" }}
       >
-        <div className="mx-3 mb-3 rounded-2xl bg-white border border-gray-100 shadow-2xl overflow-hidden">
+        <div className="mx-3 mb-3 mt-2 rounded-2xl bg-white border border-gray-100 shadow-2xl overflow-hidden">
 
           {/* Nav links — 2 column grid */}
-          <div className="p-3 grid grid-cols-2 gap-1">
+          <div className="p-3 grid grid-cols-1 gap-1">
             {navLinks.map(({ label, href }) => {
               const isActive = pathname === href;
               return (
