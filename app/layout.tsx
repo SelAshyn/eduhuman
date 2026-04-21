@@ -28,7 +28,7 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  title: "EdHuman Resource Development and Research Center Pvt. Ltd.",
+  title: "EduHuman Resource Development and Research Center Pvt. Ltd.",
   description: "Empowering Education through Research, Training, and Digital Solutions.",
 };
 
