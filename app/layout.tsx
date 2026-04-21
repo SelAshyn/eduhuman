@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Ubuntu, Merriweather } from "next/font/google";
+import { Geist, Geist_Mono, Ubuntu, Merriweather, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 import TopBar from "./components/Topbar";
 import Navbar from "./components/Navbar";
@@ -27,6 +27,12 @@ const merriweather = Merriweather({
   subsets: ["latin"],
 });
 
+const robotoSlab = Roboto_Slab({
+  variable: "--font-roboto-slab",
+  weight: ["300", "400", "500", "700"],
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: "EduHuman Resource Development and Research Center Pvt. Ltd.",
   description: "Empowering Education through Research, Training, and Digital Solutions.",
@@ -40,7 +46,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${ubuntu.variable} ${merriweather.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${ubuntu.variable} ${merriweather.variable} ${robotoSlab.variable} h-full antialiased`}
     >
       <body className="relative bg-white overflow-x-hidden">
         <TopBar />

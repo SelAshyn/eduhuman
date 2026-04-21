@@ -2,7 +2,7 @@ export function Bannar(){
   return(
     <>
       <div className="flex justify-center items-center">
-        <div className="min-h-[30vh] mt-30 mb-30 bg-white shadow-2xl rounded-xl w-max p-20 flex items-center justify-center" style={{ fontFamily: "Merriweather, serif" }}>
+        <div className="min-h-[30vh] m-25 bg-white shadow-2xl rounded-xl w-max p-20 flex items-center justify-center" style={{ fontFamily: "Merriweather, serif" }}>
         <div className="max-w-6xl flex flex-col items-center">
           <h1 className="text-5xl font-bold text-center">Ready to Transform Your Institution?</h1>
           <p className="mt-8 text-center">Collaborate with us for customized training, research, or digital solutions.</p>
